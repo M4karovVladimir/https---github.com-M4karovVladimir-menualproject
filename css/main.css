@@ -1,0 +1,108 @@
+*{  margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background: url(/css/img/grey.png);
+    min-height: 100vh;
+    background-repeat:no-repeat ;
+    background-size:100% 100% ;
+}
+nav{
+    height: 100px;
+    background: #000000;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    color: white;
+    display: flex;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+li{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    
+}
+li:hover{
+    background: white;
+    color: black;
+}
+ 
+a.text {
+  text-decoration: none;
+  color:white;
+  }
+  h1 {
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{ 
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.first{
+    display: flex;
+
+}
+
+div{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.ustr{
+    width: 600px;
+    height: 450px;
+    margin-left: 60px;
+}
+
+.linux{
+    margin-left: 60px;
+}
+.chat{
+    width: 600px;
+    height: 500px;
+    margin-left: 60px;
+}
+
+.dis{
+    margin-left: 60px;
+}
+
+.u{
+    margin-left: 60px;
+}
+
+.m{
+    margin-left: 60px;
+}
+
+.v{
+    margin-left: 60px;
+    width: 800px;
+    height: 600px;
+}
+
+.p{
+    margin-left: 60px;
+    font-size: 24px;
+}
